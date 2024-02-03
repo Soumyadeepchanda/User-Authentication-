@@ -1,0 +1,86 @@
+/* App.css */
+
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #212121; /* Dark background color */
+  color: #ffffff; /* White text color */
+}
+
+.App {
+  text-align: center;
+  padding: 20px;
+}
+
+.App-header {
+  background-color: #333333; /* Darker header background color */
+  color: #ffffff;
+  padding: 40px;
+}
+
+.App-logo {
+  height: 80px;
+  animation: App-logo-spin infinite 20s linear;
+}
+
+h1 {
+  font-size: 2em;
+  margin-bottom: 20px;
+  color: #64ffda; /* Teal accent color for h1 */
+}
+
+p {
+  font-size: 1.2em;
+  margin-top: 10px;
+}
+
+button {
+  background-color: #64ffda; /* Teal accent color for button */
+  color: #212121; /* Dark background color for button text */
+  padding: 10px 20px;
+  font-size: 1em;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+button:hover {
+  background-color: #4db6ac; /* Slightly darker teal on hover */
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  font-size: 1em;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  background-color: #333333; /* Dark background color for input */
+  color: #ffffff;
+}
+
+.RegistrationPage {
+  margin-top: 20px;
+}
+
+.error-message {
+  color: #ff5252; /* Red accent color for error messages */
+  margin-top: 10px;
+}
+
+.success-message {
+  color: #69f0ae; /* Green accent color for success messages */
+  margin-top: 10px;
+}
+
+/* Add this style for Link component */
+a {
+  color: #64ffda; /* Teal accent color for hyperlinks */
+  text-decoration: none;
+}
+
+a:hover {
+  color: #4db6ac; /* Slightly darker teal on hover for hyperlinks */
+}
